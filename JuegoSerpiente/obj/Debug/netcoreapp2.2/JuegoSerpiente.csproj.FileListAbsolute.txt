@@ -1,0 +1,11 @@
+C:\Users\ivana\source\repos\JuegoSerpiente\JuegoSerpiente\bin\Debug\netcoreapp2.2\JuegoSerpiente.deps.json
+C:\Users\ivana\source\repos\JuegoSerpiente\JuegoSerpiente\bin\Debug\netcoreapp2.2\JuegoSerpiente.runtimeconfig.json
+C:\Users\ivana\source\repos\JuegoSerpiente\JuegoSerpiente\bin\Debug\netcoreapp2.2\JuegoSerpiente.runtimeconfig.dev.json
+C:\Users\ivana\source\repos\JuegoSerpiente\JuegoSerpiente\bin\Debug\netcoreapp2.2\JuegoSerpiente.dll
+C:\Users\ivana\source\repos\JuegoSerpiente\JuegoSerpiente\bin\Debug\netcoreapp2.2\JuegoSerpiente.pdb
+C:\Users\ivana\source\repos\JuegoSerpiente\JuegoSerpiente\obj\Debug\netcoreapp2.2\JuegoSerpiente.csprojAssemblyReference.cache
+C:\Users\ivana\source\repos\JuegoSerpiente\JuegoSerpiente\obj\Debug\netcoreapp2.2\JuegoSerpiente.csproj.CoreCompileInputs.cache
+C:\Users\ivana\source\repos\JuegoSerpiente\JuegoSerpiente\obj\Debug\netcoreapp2.2\JuegoSerpiente.AssemblyInfoInputs.cache
+C:\Users\ivana\source\repos\JuegoSerpiente\JuegoSerpiente\obj\Debug\netcoreapp2.2\JuegoSerpiente.AssemblyInfo.cs
+C:\Users\ivana\source\repos\JuegoSerpiente\JuegoSerpiente\obj\Debug\netcoreapp2.2\JuegoSerpiente.dll
+C:\Users\ivana\source\repos\JuegoSerpiente\JuegoSerpiente\obj\Debug\netcoreapp2.2\JuegoSerpiente.pdb
