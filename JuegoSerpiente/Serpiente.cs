@@ -24,25 +24,29 @@ namespace JuegoSerpiente
         }
         public void DibujarSerpiente()
         {
-            foreach (Posicion posicion in Cola)
-            {
-                Console.ForegroundColor = ConsoleColor.Green;
-                Util.DibujarPosicion(posicion.X, posicion.Y, "x");
-                Console.ResetColor();
-            }
+            var cabeza = Cola.First();
+
+            Console.ForegroundColor = ConsoleColor.Green;
+            Util.DibujarPosicion(cabeza.X, cabeza.Y, "x");
+            Console.ResetColor();
         }
 
-
+        public void BorrarUltimaPosicion()
+        {
+            var cola = Cola.Last();
+            Console.SetCursorPosition(cola.X, cola.Y);
+            Console.Write(" ");
+        }
         public bool ComprobarMorir(Tablero tablero)
         {
             //Si nos chocamos contra nosotros
             Posicion primeraPosicion = Cola.First();
 
-            return !((Cola.Count(a => a.X == primeraPosicion.X && a.Y == primeraPosicion.Y) > 1 )
+            return !((Cola.Count(a => a.X == primeraPosicion.X && a.Y == primeraPosicion.Y) > 1)
                 || CabezaEstaEnPared(tablero, Cola.First()));
 
         }
-     
+
         //si la primera posicion esta en cualquiera de los muros, morimos.
         private bool CabezaEstaEnPared(Tablero tablero, Posicion primeraPoisicon)
         {

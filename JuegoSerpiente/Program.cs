@@ -12,11 +12,12 @@ namespace JuegoSerpiente
             Serpiente serpiente = new Serpiente(10, 10);
             Caramelo caramelo = new Caramelo(0, 0);
             bool haComido = false;
+            tablero.DibujarTablero();
 
             do
             {
-                Console.Clear();
-                tablero.DibujarTablero();
+                serpiente.BorrarUltimaPosicion();
+
                 //movemos y comprobamos si ha comido en el turno anterior.
                 serpiente.Moverse(haComido);
 
